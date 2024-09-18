@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[ARQUIVOS](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nome] [nvarchar](300) NULL,
+	[Endereco] [nvarchar](300) NULL,
+	[Tamanho] [bigint] NULL,
+	[DataDisponibilizacao] [datetime] NULL
+)
